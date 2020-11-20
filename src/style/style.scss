@@ -1,4 +1,18 @@
-body {
-  background: darkred;
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
+@import 'variables';
+@import 'components/Template';
+@import 'components/Header';
+@import 'components/Title';
+@import 'components/Description';
+@import 'components/Mode';
+@import 'components/Model';
+@import 'components/Footer';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
 }
+
+
 

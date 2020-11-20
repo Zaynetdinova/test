@@ -1,0 +1,19 @@
+@import '../variables';
+.Template {
+  max-width: 1024px;
+  margin: 0 auto;
+
+
+  .root {
+    border: 3px solid $color-red;
+    margin: 30px;
+    padding: 30px;
+  }
+  @media (max-width: 720px) {
+    .root {
+      padding: 12px;
+      margin: 40px 12px;
+    }
+  }
+}
+

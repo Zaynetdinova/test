@@ -1,0 +1,42 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+
+  .logo {
+    height: auto;
+    width: 100%;
+    max-width: 480px;
+  }
+  .english_logo {
+    display: flex;
+    align-self: flex-start;
+    height: auto;
+    width: 100%;
+    max-width: 250px
+  }
+  @media (max-width: 960px) {
+    .logo {
+      max-width: 250px;
+    }
+    .english_logo {
+
+    }
+  }
+  @media (max-width: 720px) {
+    .logo {
+      max-width: 170px;
+    }
+    .english_logo {
+      max-width: 170px;
+    }
+  }
+  @media (max-width: 480px) {
+    .logo {
+      max-width: 130px;
+    }
+    .english_logo {
+      max-width: 130px;
+    }
+  }
+}

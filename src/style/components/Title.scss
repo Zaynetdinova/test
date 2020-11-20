@@ -1,0 +1,76 @@
+.Title {
+  font-size: 16px;
+
+  .english-text {
+    color: red;
+    font-weight: bold;
+    font-size: 4em;
+  }
+
+  .description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .right-text {
+      font-weight: bold;
+      font-size: 2em;
+      line-height: 1;
+    }
+
+    .left-text {
+      font-weight: bold;
+      font-size: 2em;
+      line-height: 1;
+      margin-left: 36px;
+    }
+
+    .hr-text {
+      display: flex;
+      align-items: center;
+
+      .wrapper {
+        position: relative;
+      }
+
+      .hr {
+        font-size: 14em;
+        line-height: 0.9;
+        font-weight: bold;
+        color: red;
+        text-transform: uppercase;
+      }
+    }
+
+    .professional-text {
+      position: absolute;
+      font-weight: bold;
+      font-size: 4em;
+      color: #000000;
+      left: 3%;
+    }
+  }
+
+  @media (max-width: 960px) {
+    font-size: 12px;
+  }
+
+  @media (max-width: 720px) {
+    font-size: 10px;
+    .description {
+      .left-text {
+        margin-left: 12px;
+      }
+    }
+  }
+
+  @media (max-width: 540px) {
+    font-size: 8px;
+  }
+  @media (max-width: 480px) {
+    font-size: 6px;
+  }
+  @media (max-width: 320px) {
+    font-size: 5px;
+  }
+}
