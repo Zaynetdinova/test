@@ -53,11 +53,11 @@
     }
   }
 
-  @media (max-width: 960px) {
+  @media (max-width: $tablet-breakpoint) {
     font-size: 12px;
   }
 
-  @media (max-width: 720px) {
+  @media (max-width: $mobile-breakpoint) {
     font-size: 10px;
     .description {
       .left-text {
@@ -69,10 +69,10 @@
   @media (max-width: 540px) {
     font-size: 8px;
   }
-  @media (max-width: 480px) {
+  @media (max-width: $width-md-size) {
     font-size: 6px;
   }
-  @media (max-width: 320px) {
+  @media (max-width: 340px) {
     font-size: 5px;
   }
 }
