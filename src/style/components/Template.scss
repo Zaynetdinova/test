@@ -9,7 +9,7 @@
     margin: 30px;
     padding: 30px;
   }
-  @media (max-width: 720px) {
+  @media (max-width:$mobile-breakpoint) {
     .root {
       padding: 12px;
       margin: 40px 12px;

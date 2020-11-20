@@ -1,8 +1,9 @@
+@import '../variables';
 .Title {
   font-size: 16px;
 
   .english-text {
-    color: red;
+    color: $color-red;
     font-weight: bold;
     font-size: 4em;
   }
@@ -37,7 +38,7 @@
         font-size: 14em;
         line-height: 0.9;
         font-weight: bold;
-        color: red;
+        color: $color-red;
         text-transform: uppercase;
       }
     }
@@ -46,8 +47,9 @@
       position: absolute;
       font-weight: bold;
       font-size: 4em;
-      color: #000000;
+      color: $color-red;
       left: 3%;
+
     }
   }
 
