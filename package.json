@@ -4,15 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clear-build-cache": "rm -rf .cache/ dist/",
+    "dev": "parcel src/index.html",
+    "build": "cross-env NODE_ENV=production parcel build ./src/index.html --public-url ./",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Ilmira Zaynetdinova <ilmirazainetdinova686@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "sass": "^1.29.0"
   },
   "dependencies": {
+    "firebase": "^8.1.1",
+    "firebase-tools": "^8.16.2",
     "style": "0.0.3"
   }
 }
